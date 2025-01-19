@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:backgroundTint="#4B4141"
+    android:columnCount="4"
+    android:rowCount="6"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:backgroundTint="#7C7C7C"
+        android:text="/"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:text="1"
+        app:cornerRadius="@dimen/material_emphasis_disabled" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:text="2"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:text="3"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:text="*"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:text="4"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:text="5"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:text="6"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:text="-"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:layout_height="wrap_content"
+        android:text="/"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:layout_height="wrap_content"
+        android:text="8"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:layout_height="wrap_content"
+        android:text="9"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="3"
+        android:backgroundTint="#7C7C7C"
+        android:layout_gravity="fill"
+        android:text="+"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:text="00"
+        android:layout_width="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:layout_height="wrap_content"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+
+    <Button
+        android:text="="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C7C7C"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        app:cornerRadius="@dimen/material_emphasis_disabled"/>
+</GridLayout>
